@@ -1,0 +1,32 @@
+{
+  "name": "alexzelenuyk/myxing_test",
+  "description": "Test assignment at Xing",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Oleksii Zeleniuk",
+      "email": "alexzelenuyk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "silex/silex": "~2.0@dev",
+    "hybridauth/hybridauth": "dev-master",
+    "twig/twig": "1.8.2",
+    "monolog/monolog": "1.15.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "2.0.9",
+    "phpunit/phpunit": "~4"
+  },
+  "autoload": {
+    "psr-0": { "": "src/" }
+  },
+  "scripts": {
+    "run": [
+      "echo 'Started web server on http://localhost:8888'",
+      "php -S localhost:8888 -t web/index_dev.php"
+    ]
+  }
+}
