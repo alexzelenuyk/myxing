@@ -4,8 +4,8 @@
 # Installation
 To install you'll need to use [Composer](http://getcomposer.org/):
 ```
-git clone https://github.com/xing/test_php_alexzelenuyk
-cd test_php_alexzelenuyk
+git clone https://github.com/alexzelenuyk/myxing
+cd myxing
 curl -sS https://getcomposer.org/installer | php
 php composer.phar install
 ```
