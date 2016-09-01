@@ -13,4 +13,3 @@ To make application running you need to specify:
  - Consumer secret
 
 Edit `PROJECT_ROOT/config/hybridauth.php` and fill fields `key` and `secret` with proper values.
-
