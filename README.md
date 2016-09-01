@@ -1,3 +1,6 @@
+# About
+ This is a small application to display details about all contact of the specific account.
+ Application uses [Xing API](https://dev.xing.com) and [OAuth](https://dev.xing.com/docs/authentication)
 # Installation
 To install you'll need to use [Composer](http://getcomposer.org/):
 ```
